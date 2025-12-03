@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./compliance.db
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION:-us-east-1}
+      - DEBUG=False
+    volumes:
+      - ./backend:/app
+      - compliance-data:/app/data
+      - compliance-reports:/app/reports
+    networks:
+      - compliance-network
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    networks:
+      - compliance-network
+
+volumes:
+  compliance-data:
+  compliance-reports:
+
+networks:
+  compliance-network:
+    driver: bridge

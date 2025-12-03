@@ -1,8 +1,7 @@
-# 🛡️ CloudGuardian - Cloud Security Compliance Tool
 
 <div align="center">
 
-![Cloud Security Compliance Tool](banner_placeholder.png)
+  # 🛡️ CloudGuardian - Cloud Security Compliance Tool
 
 **Enterprise-grade cloud security compliance scanner for AWS resources**
 
@@ -18,22 +17,22 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 An automated cloud security compliance tool that scans AWS resources, validates them against **NIST SP 800-53** and **ISO 27001** frameworks, and provides actionable remediation suggestions through an interactive real-time dashboard.
 
-### ✨ Key Highlights
+### Key Highlights
 
-- 🔍 **Multi-Service AWS Scanning**: S3, EC2, IAM, RDS, CloudTrail, Security Groups
-- 📊 **Real-time Compliance Dashboard**: Live compliance score and violation tracking
-- 📝 **Automated Remediation Guidance**: Step-by-step fixes with CLI commands
-- 📄 **Professional PDF Reports**: Executive summaries with compliance metrics
-- 🎯 **Framework Alignment**: NIST SP 800-53 & ISO 27001 compliant
-- 🆓 **AWS Free Tier Compatible**: No cost for basic usage
+-  **Multi-Service AWS Scanning**: S3, EC2, IAM, RDS, CloudTrail, Security Groups
+-  **Real-time Compliance Dashboard**: Live compliance score and violation tracking
+-  **Automated Remediation Guidance**: Step-by-step fixes with CLI commands
+-  **Professional PDF Reports**: Executive summaries with compliance metrics
+-  **Framework Alignment**: NIST SP 800-53 & ISO 27001 compliant
+-  **AWS Free Tier Compatible**: No cost for basic usage
 
 ---
 
-## 🎯 Features
+##  Features
 
 ### Cloud Resource Scanning
 - ✅ **S3 Bucket Security**
@@ -67,15 +66,15 @@ An automated cloud security compliance tool that scans AWS resources, validates 
   - Public accessibility checks
 
 ### Compliance & Reporting
-- 📊 Real-time compliance score calculation
-- 🔴 Severity-based violation prioritization (Critical/High/Medium/Low)
-- 📈 Historical trend analysis
-- 📄 Exportable PDF compliance reports
-- 🎯 Framework-specific alignment (NIST/ISO)
+- Real-time compliance score calculation
+- Severity-based violation prioritization (Critical/High/Medium/Low)
+- Historical trend analysis
+- Exportable PDF compliance reports
+- Framework-specific alignment (NIST/ISO)
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -105,7 +104,7 @@ An automated cloud security compliance tool that scans AWS resources, validates 
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -165,7 +164,7 @@ npm run dev
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Running a Compliance Scan
 
@@ -200,7 +199,7 @@ curl http://localhost:8000/api/dashboard
 
 ---
 
-## 🛡️ Security Best Practices
+##  Security Best Practices
 
 > [!IMPORTANT]
 > **Use Read-Only IAM Permissions**: Create a dedicated IAM user with read-only policies
@@ -231,7 +230,7 @@ curl http://localhost:8000/api/dashboard
 py -m uvicorn app:app --reload --host 127.0.0.1 --port 8001
 ---
 
-## 📊 Compliance Frameworks
+## Compliance Frameworks
 
 ### NIST SP 800-53 Controls Covered
 - **AC-6**: Least Privilege
@@ -247,7 +246,7 @@ py -m uvicorn app:app --reload --host 127.0.0.1 --port 8001
 
 ---
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ```bash
 # Build and run with Docker Compose
@@ -259,7 +258,7 @@ docker-compose up --build
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run backend tests
@@ -273,7 +272,7 @@ npm test
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > Screenshots will be added as development progresses
 
@@ -293,60 +292,25 @@ npm test
 - [ ] CI/CD pipeline integration
 - [ ] Slack/Email notifications
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
----
-
-## 🌟 Resume Bullet Points
-
-Use these on your resume/LinkedIn:
-
-- Built an enterprise-grade cloud security compliance tool that automates scanning of AWS resources against NIST SP 800-53 and ISO 27001 frameworks
-- Implemented multi-service AWS support (S3, EC2, IAM, RDS, CloudTrail) with Python backend using FastAPI and boto3 SDK for real-time resource scanning
-- Designed a SQLite database to store 10K+ compliance scan results with automated violation tracking and remediation suggestions
-- Created an interactive React dashboard displaying real-time compliance scores, severity-based violation prioritization, and PDF report generation
-- Integrated compliance checks for S3 encryption, IAM least privilege, security group misconfigurations, and CloudTrail logging with automated remediation guidance
-- Containerized full-stack application using Docker and Docker Compose for seamless deployment across environments
+**Neel Suthar**
+- GitHub: [@Neel1901Dev](https://github.com/Neel1901Dev)
+- LinkedIn: [Neel Suthar](https://linkedin.com/in/neelsuthar)
 
 ---
 
-## 🙏 Acknowledgments
-
-- [FastAPI](https://fastapi.tiangolo.com/) - Modern Python web framework
-- [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - AWS SDK for Python
-- [NIST SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) - Security Controls Framework
-- [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) - Information Security Standard
-
----
 
 <div align="center">
 
 **⭐ Star this repository if you find it helpful!**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Neel Suthar]
 
 </div>

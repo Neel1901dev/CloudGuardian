@@ -114,8 +114,8 @@ An automated cloud security compliance tool that scans AWS resources, validates 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/cloud-security-compliance-tool.git
-cd cloud-security-compliance-tool
+git clone https://github.com/Neel1901dev/CloudGuardian.git
+cd CloudGuardian
 ```
 
 ### Step 2: Backend Setup

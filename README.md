@@ -1,7 +1,7 @@
 
 <div align="center">
 
-  # 🛡️ CloudGuardian - Cloud Security Compliance Tool
+  # CloudGuardian - Cloud Security Compliance Tool
 
 **Enterprise-grade cloud security compliance scanner for AWS resources**
 

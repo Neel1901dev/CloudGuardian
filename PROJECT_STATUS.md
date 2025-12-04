@@ -1,4 +1,4 @@
-# 🚀 Project Status & Technical Implementation
+# Project Status & Technical Implementation
 
 > **Note for Resume/Interviews**: This document details the specific technical implementations and "under the hood" work completed so far. Use this to discuss the depth of your engineering work.
 
@@ -36,7 +36,7 @@ A React-based Single Page Application (SPA) that visualizes the backend data.
 
 ---
 
-## 🛠️ Tech Stack & Design Decisions
+## Tech Stack & Design Decisions
 
 *   **Backend**: Python 3.11 + FastAPI
     *   *Why?* FastAPI provides high performance (async support) and automatic Swagger documentation, which sped up frontend integration.
